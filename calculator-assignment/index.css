@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background: rgb(62, 112, 239);
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: end;
+    padding-right: 5px;
+}
+.big{
+    width: 80px;
+}
